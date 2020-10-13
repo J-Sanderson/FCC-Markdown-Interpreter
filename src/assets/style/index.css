@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main-boxes {
+  width: 100%;
+}
+
+#text-input, #preview {
+  min-height: 500px;
+  width: 40%;
+  float: left;
+}
+
+#preview {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+
+  #text-input, #preview {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="main-boxes"
+      >
+        <div
+          id="markdown"
+        >
+          <textarea
+            data-testid="text-input"
+            id="text-input"
+          >
+            # ReactJS Markdown Interpreter
+
+## Type Markdown into the textbox
+
+### and see a live preview!
+
+You can make paragraphs
+and seperate them with a blank line...
+
+..like so!
+
+You can format text too, if this is too plain! Try some *italics* and **bold**, show off some code with \`monospace\`, or scratch out a terrible idea with ~~strikethrough~~!
+
+I'm going shopping after this, so I'd better make a list...
+
+* Chocolate
+* Pizza
+* Energy drinks
+
+But I'd better put them in order of importance...
+
+1. Energy drinks
+2. Pizza
+3. Chocolate
+
+[Because, of course, it's important to stay awake!](https://en.wikipedia.org/wiki/Caffeine)
+          </textarea>
+        </div>
+        <div
+          data-testid="preview"
+          id="preview"
+        >
+          <h1
+            id="reactjs-markdown-interpreter"
+          >
+            ReactJS Markdown Interpreter
+          </h1>
+          
+
+          <h2
+            id="type-markdown-into-the-textbox"
+          >
+            Type Markdown into the textbox
+          </h2>
+          
+
+          <h3
+            id="and-see-a-live-preview"
+          >
+            and see a live preview!
+          </h3>
+          
+
+          <p>
+            You can make paragraphs
+and seperate them with a blank line...
+          </p>
+          
+
+          <p>
+            ..like so!
+          </p>
+          
+
+          <p>
+            You can format text too, if this is too plain! Try some 
+            <em>
+              italics
+            </em>
+             and 
+            <strong>
+              bold
+            </strong>
+            , show off some code with 
+            <code>
+              monospace
+            </code>
+            , or scratch out a terrible idea with 
+            <del>
+              strikethrough
+            </del>
+            !
+          </p>
+          
+
+          <p>
+            I'm going shopping after this, so I'd better make a list...
+          </p>
+          
+
+          <ul>
+            
+
+            <li>
+              Chocolate
+            </li>
+            
+
+            <li>
+              Pizza
+            </li>
+            
+
+            <li>
+              Energy drinks
+            </li>
+            
+
+          </ul>
+          
+
+          <p>
+            But I'd better put them in order of importance...
+          </p>
+          
+
+          <ol>
+            
+
+            <li>
+              Energy drinks
+            </li>
+            
+
+            <li>
+              Pizza
+            </li>
+            
+
+            <li>
+              Chocolate
+            </li>
+            
+
+          </ol>
+          
+
+          <p>
+            <a
+              href="https://en.wikipedia.org/wiki/Caffeine"
+            >
+              Because, of course, it's important to stay awake!
+            </a>
+          </p>
+          
+
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="main-boxes"
+    >
+      <div
+        id="markdown"
+      >
+        <textarea
+          data-testid="text-input"
+          id="text-input"
+        >
+          # ReactJS Markdown Interpreter
+
+## Type Markdown into the textbox
+
+### and see a live preview!
+
+You can make paragraphs
+and seperate them with a blank line...
+
+..like so!
+
+You can format text too, if this is too plain! Try some *italics* and **bold**, show off some code with \`monospace\`, or scratch out a terrible idea with ~~strikethrough~~!
+
+I'm going shopping after this, so I'd better make a list...
+
+* Chocolate
+* Pizza
+* Energy drinks
+
+But I'd better put them in order of importance...
+
+1. Energy drinks
+2. Pizza
+3. Chocolate
+
+[Because, of course, it's important to stay awake!](https://en.wikipedia.org/wiki/Caffeine)
+        </textarea>
+      </div>
+      <div
+        data-testid="preview"
+        id="preview"
+      >
+        <h1
+          id="reactjs-markdown-interpreter"
+        >
+          ReactJS Markdown Interpreter
+        </h1>
+        
+
+        <h2
+          id="type-markdown-into-the-textbox"
+        >
+          Type Markdown into the textbox
+        </h2>
+        
+
+        <h3
+          id="and-see-a-live-preview"
+        >
+          and see a live preview!
+        </h3>
+        
+
+        <p>
+          You can make paragraphs
+and seperate them with a blank line...
+        </p>
+        
+
+        <p>
+          ..like so!
+        </p>
+        
+
+        <p>
+          You can format text too, if this is too plain! Try some 
+          <em>
+            italics
+          </em>
+           and 
+          <strong>
+            bold
+          </strong>
+          , show off some code with 
+          <code>
+            monospace
+          </code>
+          , or scratch out a terrible idea with 
+          <del>
+            strikethrough
+          </del>
+          !
+        </p>
+        
+
+        <p>
+          I'm going shopping after this, so I'd better make a list...
+        </p>
+        
+
+        <ul>
+          
+
+          <li>
+            Chocolate
+          </li>
+          
+
+          <li>
+            Pizza
+          </li>
+          
+
+          <li>
+            Energy drinks
+          </li>
+          
+
+        </ul>
+        
+
+        <p>
+          But I'd better put them in order of importance...
+        </p>
+        
+
+        <ol>
+          
+
+          <li>
+            Energy drinks
+          </li>
+          
+
+          <li>
+            Pizza
+          </li>
+          
+
+          <li>
+            Chocolate
+          </li>
+          
+
+        </ol>
+        
+
+        <p>
+          <a
+            href="https://en.wikipedia.org/wiki/Caffeine"
+          >
+            Because, of course, it's important to stay awake!
+          </a>
+        </p>
+        
+
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

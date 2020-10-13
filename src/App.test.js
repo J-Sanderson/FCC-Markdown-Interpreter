@@ -1,9 +1,19 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import { 
+  render, 
+  // fireEvent 
+} from '@testing-library/react';
+// import userEvent from '@testing-library/user-event'
+import App from './components/App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('matches snapshot', () => {
+  const container = render(<App />);
+  expect(container).toMatchSnapshot();
+});
+
+test('responds to input', () => {
+  const container = render(<App />);
+  expect(container.getByTestId('text-input')).toHaveTextContent('Markdown');
+  expect(container.getByTestId('preview')).toHaveTextContent('Markdown');
+  // todo - type text
 });
